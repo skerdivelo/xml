@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<ordine>
+    <cliente tipo="abituale" class="highlight">Paolo Rossi</cliente>
+    <domicilio>
+        <citta>Livorno</citta>
+        <strada>via dei Pensieri</strada>
+        <civico>60</civico>
+    </domicilio>
+    <email>p.rossi@mail.com</email>
+    <richiesta>
+        <giorno>10/06/2013</giorno>
+        <ora>09.30</ora>
+    </richiesta>
+    <consegna>
+        <luogo tipo="domicilio" />
+        <giorno>10/06/2013</giorno>
+        <ora>
+            <minima>13.30</minima>
+            <massima>14.00</massima>
+        </ora>
+        <pagamento mezzo="carta di credito" quando="dopo consegna" />
+    </consegna>
+</ordine>

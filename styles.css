@@ -1,0 +1,46 @@
+/* styles.css */
+.highlight {
+    font-weight: bold;
+    color: #0066cc;
+  }
+  
+  ordine {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  cliente {
+    font-size: 18px;
+  }
+  
+  email {
+    color: #009900;
+  }
+  
+  richiesta, consegna {
+    margin-top: 10px;
+  }
+  
+  luogo {
+    font-style: italic;
+  }
+  
+  ora {
+    font-weight: bold;
+  }
+  
+  minima, massima {
+    color: #ff6600;
+  }
+  
+  pagamento {
+    font-weight: bold;
+  }
+  
+  citta, strada, civico {
+    font-size: 16px;
+  }
+  
